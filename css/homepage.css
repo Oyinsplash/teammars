@@ -16,8 +16,8 @@ body {
 .landingpage-background {
   background-image: url(../images/landingpage/Plane.png),
     url(../images/landingpage/background.png);
-    background-size: 30%, 400%;
-    background-position: 5% 50%, 84% 500%;
+  background-size: 30%, 400%;
+  background-position: 5% 50%, 84% 500%;
   background-repeat: no-repeat;
   height: 80vh;
 }
@@ -275,7 +275,8 @@ body {
   width: 100%;
 }
 
-.footer-mobile-options, .footer-mobile .option-container,
+.footer-mobile-options,
+.footer-mobile .option-container,
 .footer-mobile .language,
 .footer-mobile .social,
 hr {
@@ -348,12 +349,12 @@ hr {
 .footer-mobile .option-container .hide {
   display: none;
 }
-.footer-mobile .option-container  a{
+.footer-mobile .option-container a {
   display: block;
   margin: 0.3rem 0 0.3rem 0.3rem;
-  color:#aaa;
+  color: #aaa;
 }
-.footer-mobile .option-container  a:hover{
+.footer-mobile .option-container a:hover {
   color: #fa6866;
 }
 /* RESPONSIVENESS */
@@ -363,7 +364,7 @@ hr {
     padding: 0 8%;
   }
   .landingpage-content {
-    margin-top: 40%;
+    margin-top: 30%;
     width: 65%;
   }
 
@@ -379,7 +380,7 @@ hr {
   .landingpage-top {
     padding: 2% 8%;
     z-index: 9;
-    background-color: #61CCD6;
+    background-color: #61ccd6;
     position: fixed;
   }
   .landingpage-description {
@@ -409,16 +410,16 @@ hr {
   .download-btn {
     width: 60%;
     border: 1px solid #01aae4;
-  color: #fff;
-  background-color: #01aae4;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in;
-}
-.download-btn:hover {
-  color: #01aae4;
-  border: 1px solid #01aae4;
-  background-color: #fff;
-}
+    color: #fff;
+    background-color: #01aae4;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in;
+  }
+  .download-btn:hover {
+    color: #01aae4;
+    border: 1px solid #01aae4;
+    background-color: #fff;
+  }
   .title {
     text-align: left;
     width: 45%;
@@ -557,10 +558,10 @@ hr {
   .footer-large .right {
     width: 65%;
   }
-  .footer-large hr{
+  .footer-large hr {
     color: #f6f6f6;
     position: absolute;
-    top: 17.5%;
+    top: 16%;
   }
   .footer-large .left {
     width: 35%;
@@ -581,9 +582,12 @@ hr {
     margin-top: 0.5rem;
     color: #878787;
   }
+  .footer-large-second .options a:hover {
+    color: #fa6866;
+  }
   .footer-large-first .option-title h4 {
     align-self: flex-start;
-    padding: .3rem 0;
+    padding: 0.3rem 0;
   }
   .selected {
     border-bottom: 2px solid #505050;
@@ -616,6 +620,9 @@ hr {
     background-size: 15%, 120% 135%;
     background-position: 65% center, 70% 60%;
     height: 100%;
+  }
+  .landingpage .description {
+    text-align: left;
   }
   .container {
     height: 100%;
@@ -738,7 +745,8 @@ hr {
   .cancun .location-tag {
     top: calc(50% - 2rem);
   }
-  .hong-kong .location-tag , .new-york .location-tag {
+  .hong-kong .location-tag,
+  .new-york .location-tag {
     top: calc(60% - 2rem);
   }
   .sectionv .paris {

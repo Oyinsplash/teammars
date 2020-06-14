@@ -2,7 +2,6 @@ const people = document.querySelector(".people");
 const options = document.querySelector(".footer-mobile-options");
 const plusBtn = document.querySelector(".plus-btn");
 
-
 options.addEventListener("click",  (e) => {
     console.log(e.target);
     if (e.target.classList.contains("plus-btn")) {
@@ -16,3 +15,4 @@ options.addEventListener("click",  (e) => {
         }
     } 
 });
+
