@@ -84,77 +84,57 @@ body {
 .sectioniii-description {
   font-size: 13px;
 }
-.sectionii {
+/* .sectionii {
   height: 100vh;
-}
-.sectionii-images {
-  height: 65%;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  /* padding-left: 12%; */
-}
-.sectionii-firstimagea,
-.sectionii-firstimageb,
-.sectionii-thirdimageb {
-  display: none;
-}
-.sectionii-firstimage,
-.sectionii-thirdimage {
-  width: 33%;
-  display: flex;
-}
-.sectionii-secondimage {
-  width: 33%;
-  background: url(../images/sectionii/0-center.png);
-  background-size: 150% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0 -8% 0 -10%;
-  z-index: 5;
-}
+} */
 
-.sectionii-images .image {
-  width: 100%;
-  background-size: 150% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  align-self: center;
-}
-.sectionii-firstimagea {
-  background: url(../images/sectionii/2-left.png);
-  height: 60%;
-}
-.sectionii-firstimageb {
-  background: url(../images/sectionii/1-left.png);
-  /* margin-left: -20%; */
-  height: 80%;
-}
-.sectionii-thirdimagea {
-  background: url(../images/sectionii/1-right.png);
-  /* margin-right: -12%;
-  margin-left: -18%; */
-  height: 80%;
-}
-.sectionii-thirdimageb {
-  background: url(../images/sectionii/2-right.png);
-  height: 70%;
-}
-.sectionii-firstimagec {
-  background: url(../images/sectionii/hotels.png);
-  height: 70%;
-}
-/* section iii */
 .pre {
   display: none;
-}
-.sectionii {
-  height: 100vh;
 }
 
 .sectionii .container {
   height: 100%;
 }
+
+.sectionii-bottom-images{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionii-bottom-images .image{
+  width: 20%;
+}
+.sectionii-bottom-images img{
+  width: 100%;
+  height: 100%;
+}
+
+.sectionii-bottom-center{
+  margin: 0 -7% 0 -9%;
+  z-index: 3;
+  height: 100%;
+}
+
+ .sectionii-bottom-second{
+  margin-left: -5%;
+  height: 80%;
+} 
+
+ .sectionii-bottom-fourth{
+  margin-right: -1%;
+  height: 80%;
+} 
+
+.sectionii-bottom-first{
+  height: 60%;
+}
+.sectionii-bottom-fifth{
+  height: 50%;
+}
+  /* section iii */
 
 .sectioniii-images {
   display: flex;
@@ -354,7 +334,7 @@ hr {
   margin: 0.3rem 0 0.3rem 0.3rem;
   color: #aaa;
 }
-.footer-mobile .option-container a:hover {
+.footer-mobile .option-container a:active {
   color: #fa6866;
 }
 /* RESPONSIVENESS */
@@ -474,36 +454,13 @@ hr {
 
   /* SECTION IV */
   .sectioniv {
+    background: url(../images/sectioniv/desk.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
   }
 
-  /* SECTION IV */
-  .sectioniv:before {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 50% 90%;
-    width: 50%;
-    height: 80px;
-    left: 40%;
-    bottom: -9%;
-    background-color: #fff;
-  }
-
-  .sectioniv:after {
-    content: "";
-    display: block;
-    position: absolute;
-    border-radius: 90% 50%;
-    width: 55%;
-    height: 80px;
-    right: 40%;
-    bottom: -9%;
-    background-color: #fff;
-  }
 
   /* SECTION V */
   .sectionv-title1 {

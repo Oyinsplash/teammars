@@ -1,6 +1,23 @@
+// Large screen options
+const option = document.querySelector("option");
+const footerLarge = document.querySelector("footer-large-first");
+
+
+    
+   
+    // if (e.target.parentElement.classList.contains("option-title right")) {
+    //     console.log("you get am!!!")
+    // }
+ 
+
+// small screen options
 const people = document.querySelector(".people");
 const options = document.querySelector(".footer-mobile-options");
 const plusBtn = document.querySelector(".plus-btn");
+
+const footerTitle = () => {
+    console.log("skfkkgjtj!!!!!");
+}
 
 options.addEventListener("click",  (e) => {
     console.log(e.target);
@@ -16,3 +33,4 @@ options.addEventListener("click",  (e) => {
     } 
 });
 
+footerLarge.addEventListener("click", footerTitle);
